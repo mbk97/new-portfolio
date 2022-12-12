@@ -1,0 +1,17 @@
+export const skillsData = [
+  { id: 1, text: "HTML", image: "/assets/img/html.png" },
+  { id: 2, text: "CSS", image: "/assets/img/css.png" },
+  { id: 3, text: "Javascript", image: "/assets/img/js.png" },
+  { id: 4, text: "React JS", image: "/assets/img/react.png" },
+  { id: 5, text: "Typescript", image: "/assets/img/ts.png" },
+  { id: 6, text: "Styled Components", image: "/assets/img/styled.png" },
+  { id: 7, text: "Material UI", image: "/assets/img/material.png" },
+  { id: 8, text: "Bootstrap", image: "/assets/img/boots.png" },
+  { id: 9, text: "Node JS", image: "/assets/img/node.jpg" },
+  { id: 10, text: "Express JS", image: "/assets/img/express.png" },
+  { id: 11, text: "Mongo DB", image: "/assets/img/mongo.png" },
+  { id: 12, text: "Rest Api", image: "/assets/img/rest.png" },
+  { id: 13, text: "Git", image: "/assets/img/git.png" },
+  { id: 14, text: "Next JS", image: "/assets/img/next.png" },
+  { id: 15, text: "Redux", image: "/assets/img/redux.png" },
+];
