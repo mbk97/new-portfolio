@@ -2,6 +2,7 @@ import Head from "next/head";
 import About from "../components/about/About";
 import CutsomButton from "../components/common/button/CutsomButton";
 import { CustomHeader, CustomText } from "../components/common/text/CustomText";
+import Contact from "../components/contact/Contact";
 import {
   GeneralWrapper,
   GlobalStyle,
@@ -19,6 +20,7 @@ export default function Home() {
       </Head>
       <GeneralWrapper>
         <About />
+        <Contact />
       </GeneralWrapper>
     </div>
   );

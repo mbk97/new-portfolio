@@ -4,6 +4,7 @@ import styled from "styled-components";
 interface IProps {
   children: React.ReactNode;
   secondary?: boolean;
+  disabled?: boolean;
 }
 
 const Button = styled.button.attrs((props: IProps) => ({
@@ -22,8 +23,19 @@ const Button = styled.button.attrs((props: IProps) => ({
   cursor: pointer;
 `;
 
-const CutsomButton = ({ children, secondary }: IProps) => {
-  return <Button secondary={secondary}>{children}</Button>;
+const CutsomButton = ({ children, secondary, disabled }: IProps) => {
+  return (
+    <Button
+      secondary={secondary}
+      disabled={disabled}
+      style={{
+        pointerEvents: disabled ? "none" : "auto",
+        opacity: disabled ? "0.6" : "1",
+      }}
+    >
+      {children}
+    </Button>
+  );
 };
 
 export default CutsomButton;

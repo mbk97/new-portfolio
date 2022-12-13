@@ -4,18 +4,18 @@ import CutsomButton from "../common/button/CutsomButton";
 import Pills from "../common/pills/Pills";
 import { CustomHeader, CustomText, SubHeader } from "../common/text/CustomText";
 import Skills from "./skills/Skills";
-import { AboutContent, AboutMeText, AboutTitle } from "./style";
+import { AboutContent, AboutMeText, TitleContainer } from "./style";
 
 const About = () => {
   return (
     <React.Fragment>
       <ComponentMargin />
-      <AboutTitle>
+      <TitleContainer>
         <CustomHeader>
           <SectionNum>01.</SectionNum>
           About Me
         </CustomHeader>
-      </AboutTitle>
+      </TitleContainer>
       <AboutContent>
         <AboutMeText>
           <SubHeader>Get to know me</SubHeader>
