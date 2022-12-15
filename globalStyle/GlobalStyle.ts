@@ -35,12 +35,11 @@ export const ComponentMargin = styled.div`
 `;
 
 export const SectionNum = styled.span`
-  margin-right: 20px;
+  margin-right: 10px;
   font-family: "DM Sans";
   font-weight: 400;
-  font-size: 32px;
+  font-size: 22px;
   line-height: 62px;
-  color: #ffffff;
   color: #27ae60;
 
   @media (max-width: 600px) {

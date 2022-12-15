@@ -20,6 +20,7 @@ const Button = styled.button.attrs((props: IProps) => ({
   font-size: 14px;
   line-height: 18px;
   margin-top: 20px;
+  margin-left: ${(props) => (props.secondary ? "20px" : "0px")};
   cursor: pointer;
 `;
 
