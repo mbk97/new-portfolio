@@ -3,6 +3,7 @@ import About from "../components/about/About";
 import CutsomButton from "../components/common/button/CutsomButton";
 import { CustomHeader, CustomText } from "../components/common/text/CustomText";
 import Contact from "../components/contact/Contact";
+import Header from "../components/header/Header";
 import {
   GeneralWrapper,
   GlobalStyle,
@@ -19,6 +20,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GeneralWrapper>
+        <Header />
         <About />
         <Contact />
       </GeneralWrapper>
