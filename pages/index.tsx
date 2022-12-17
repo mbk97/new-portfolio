@@ -1,14 +1,16 @@
 import Head from "next/head";
 import About from "../components/about/About";
-import CutsomButton from "../components/common/button/CutsomButton";
-import { CustomHeader, CustomText } from "../components/common/text/CustomText";
 import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
+import Navbar from "../components/navbar/Navbar";
 import {
   GeneralWrapper,
   GlobalStyle,
-  TitleHeader,
+  Layout,
 } from "../globalStyle/GlobalStyle";
+import LeftStickyBar from "../components/stickySocials/LeftStickyBar";
+import RightStickyBar from "../components/stickySocials/RightStickyBar";
 
 export default function Home() {
   return (
@@ -20,10 +22,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GeneralWrapper>
+        <Navbar />
         <Header />
         <About />
         <Contact />
+        <Footer />
       </GeneralWrapper>
+      <RightStickyBar />
+      <LeftStickyBar />
     </div>
   );
 }
