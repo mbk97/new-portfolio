@@ -18,7 +18,7 @@ body{
 `;
 
 export const GeneralWrapper = styled.div`
-  padding: 0 80px;
+  padding: 0 50px;
 
   @media (max-width: 900px) {
     padding: 0 20px;
@@ -33,6 +33,13 @@ export const TitleHeader = styled.h1`
 export const ComponentMargin = styled.div`
   margin-top: 5rem;
 `;
+export const ComponentPadding = styled.div`
+  padding: 0 4rem;
+
+  @media (max-width: 600px) {
+    padding: 0;
+  }
+`;
 
 export const SectionNum = styled.span`
   margin-right: 10px;
@@ -46,4 +53,8 @@ export const SectionNum = styled.span`
     font-size: 32px;
     line-height: 40px;
   }
+`;
+
+export const Layout = styled.div`
+  /* display: flex; */
 `;

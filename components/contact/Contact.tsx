@@ -7,6 +7,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { TitleContainer } from "../about/style";
 import { CustomHeader, CustomText } from "../common/text/CustomText";
+import { EmailLink } from "../stickySocials/style";
 
 const Contact = () => {
   const form = useRef() as MutableRefObject<HTMLFormElement>;
@@ -51,19 +52,24 @@ const Contact = () => {
           }}
         >
           <CustomText>
-            You can reach out to me by submitting the form below and i will get
+            You can reach out to me by sending a mail message, <br /> i will get
             back to you as soon as possible.
           </CustomText>
         </div>
+        <CutsomButton>
+          <EmailLink href="mailto:oyindamola850@gmail.com">
+            Send message
+          </EmailLink>
+        </CutsomButton>
       </TitleContainer>
-      <FormWrapper>
+      {/* <FormWrapper>
         <Form ref={form} onSubmit={sendEmail}>
           <FormInput type="text" placeholder="Name" name="name" />
           <FormInput type="email" placeholder="Email" name="email" />
           <MessageBox placeholder="Enter your message" name="message" />
           <CutsomButton>Send message</CutsomButton>
         </Form>
-      </FormWrapper>
+      </FormWrapper> */}
     </React.Fragment>
   );
 };

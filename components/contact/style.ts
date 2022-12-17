@@ -28,6 +28,9 @@ export const FormInput = styled.input`
     color: #4f4f4f;
     font-size: 16px;
   }
+  /* @media (max-width: 900px) {
+    width: 80%;
+  } */
 
   @media (max-width: 600px) {
     font-size: 16px;
@@ -48,4 +51,8 @@ export const MessageBox = styled.textarea`
   &::placeholder {
     color: #4f4f4f;
   }
+
+  /* @media (max-width: 900px) {
+    width: 80%;
+  } */
 `;
