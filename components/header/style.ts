@@ -10,7 +10,7 @@ export const IntroWrapper = styled.div`
 
 export const HeaderGreetText = styled.p`
   color: #27ae60;
-  font-size: 20px;
+  font-size: 17px;
 `;
 
 export const HeaderTextOne = styled.h1`
