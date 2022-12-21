@@ -11,6 +11,7 @@ import {
 } from "../globalStyle/GlobalStyle";
 import LeftStickyBar from "../components/stickySocials/LeftStickyBar";
 import RightStickyBar from "../components/stickySocials/RightStickyBar";
+import Projects from "../components/projects/Projects";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Navbar />
         <Header />
         <About />
+        <Projects />
         <Contact />
         <Footer />
       </GeneralWrapper>

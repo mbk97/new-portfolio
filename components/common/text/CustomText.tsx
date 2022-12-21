@@ -34,6 +34,20 @@ const SubHeader = styled(Header)`
   font-size: 24px;
 `;
 
+const SecondaryText = styled(Text)`
+  font-size: 20px;
+`;
+
+const ProjectTitle = styled(Text)`
+  font-size: 24px;
+  color: #27ae60;
+  margin-bottom: 20px;
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+`;
+
 const CustomText = ({ children }: IProps) => {
   return <Text>{children}</Text>;
 };
@@ -42,4 +56,11 @@ const CustomHeader = ({ children }: IProps) => {
   return <Header>{children}</Header>;
 };
 
-export { CustomHeader, CustomText, PillText, SubHeader };
+export {
+  CustomHeader,
+  CustomText,
+  PillText,
+  SubHeader,
+  SecondaryText,
+  ProjectTitle,
+};
