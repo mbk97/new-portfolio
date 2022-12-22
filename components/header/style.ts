@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
-  height: 75vh;
+  height: 65vh;
+
+  @media (max-width: 900px) {
+    height: 75vh;
+  }
 `;
 
 export const IntroWrapper = styled.div`

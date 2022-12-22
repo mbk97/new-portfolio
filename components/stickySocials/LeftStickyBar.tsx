@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  LeftItems,
-  RightItems,
-  StickyItem,
-  LeftStickyBarWrapper,
-  StickyLine,
-} from "./style";
+import { StickyItem, LeftStickyBarWrapper, StickyLine } from "./style";
 import { socialData } from "../footer/socialData";
 
 const LeftStickyBar = () => {
@@ -18,7 +12,14 @@ const LeftStickyBar = () => {
           const { id, linkTo, Icon } = item;
           return (
             <StickyItem key={id}>
-              <a href={linkTo} target="_blank" rel="noreferrer">
+              <a
+                href={linkTo}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "#27ae60",
+                }}
+              >
                 <Icon size={30} />
               </a>
             </StickyItem>

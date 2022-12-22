@@ -11,7 +11,7 @@ export const RightItems = styled.div`
 
 export const StickyLine = styled.div`
   background-color: white;
-  height: 120px;
+  height: 60px;
   width: 1px;
   display: flex;
   align-items: center;
@@ -29,8 +29,8 @@ export const RightStickyBarWrapper = styled.div`
   float: right;
   bottom: 0;
   right: 0px;
-  /* margin-bottom: 20px; */
   width: 70px;
+
   @media (max-width: 900px) {
     padding: 0 20px;
   }
@@ -43,7 +43,6 @@ export const LeftStickyBarWrapper = styled.div`
   position: sticky;
   bottom: 0px;
   left: 0;
-  /* padding: 0 50px; */
   padding-left: 40px;
   width: 90px;
   overflow: hidden;

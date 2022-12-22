@@ -15,7 +15,6 @@ const Button = styled.button.attrs((props: IProps) => ({
   height: 42px;
   border: ${(props) => (props.secondary ? "1px solid #F2F2F2" : "0px")};
   color: ${(props) => (props.secondary ? "#FFFFFF" : "#FFFFFF")};
-  font-family: "DM Sans";
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;

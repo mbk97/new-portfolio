@@ -1,12 +1,6 @@
 import React from "react";
 import { socialData } from "../footer/socialData";
-import {
-  RightItems,
-  StickyItem,
-  RightStickyBarWrapper,
-  StickyLine,
-  EmailLink,
-} from "./style";
+import { StickyItem, RightStickyBarWrapper, StickyLine } from "./style";
 
 const RightStickyBar = () => {
   const data = socialData.slice(2, 4);
@@ -18,7 +12,14 @@ const RightStickyBar = () => {
           const { id, linkTo, Icon } = item;
           return (
             <StickyItem key={id}>
-              <a href={linkTo} target="_blank" rel="noreferrer">
+              <a
+                href={linkTo}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  color: "#27ae60",
+                }}
+              >
                 <Icon size={30} />
               </a>
             </StickyItem>
