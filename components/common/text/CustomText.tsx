@@ -6,7 +6,6 @@ interface IProps {
 }
 
 const Text = styled.p`
-  font-family: "DM Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -18,7 +17,7 @@ const PillText = styled(Text)`
   white-space: nowrap;
 `;
 const Header = styled.h2`
-  font-family: "DM Sans";
+  font-family: "Sevillana", cursive;
   font-weight: 700;
   font-size: 48px;
   line-height: 62px;
@@ -32,6 +31,7 @@ const Header = styled.h2`
 
 const SubHeader = styled(Header)`
   font-size: 24px;
+  font-family: "DM Sans";
 `;
 
 const SecondaryText = styled(Text)`

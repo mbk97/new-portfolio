@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import {
   ComponentMargin,
   ComponentPadding,
@@ -14,7 +15,7 @@ import {
 
 const Header = () => {
   return (
-    <ComponentPadding>
+    <ComponentPadding id="home">
       <HeaderWrapper>
         <ComponentMargin />
         <IntroWrapper>
@@ -22,8 +23,12 @@ const Header = () => {
           <HeaderTextOne>Mubarak Muhammed.</HeaderTextOne>
           <HeaderTextTwo>I build things for the web</HeaderTextTwo>
           <React.Fragment>
-            <CutsomButton>Download cv</CutsomButton>
-            <CutsomButton secondary>Learn more</CutsomButton>
+            <a href="/resume/mubarak-dev-resume.pdf" download={true}>
+              <CutsomButton>Download resume</CutsomButton>
+            </a>
+            <Link to="about" smooth={true} offset={-80}>
+              <CutsomButton secondary>Learn more</CutsomButton>
+            </Link>
           </React.Fragment>
         </IntroWrapper>
       </HeaderWrapper>

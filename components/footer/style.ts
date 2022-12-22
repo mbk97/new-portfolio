@@ -5,7 +5,13 @@ export const FooterWrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
+
+  /* background-color: red; */
+
+  @media (max-width: 900px) {
+    margin: 30px 0;
+  }
 `;
 
 export const SocialWrapper = styled.div`

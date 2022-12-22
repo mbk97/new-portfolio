@@ -30,7 +30,7 @@ export const ProjectDetailsContainer = styled.div`
 
 export const ProjectImg = styled.img`
   width: 100%;
-  height: 300px;
+  height: 350px;
   object-fit: cover;
   object-position: center;
   border-radius: 15px;
@@ -39,6 +39,7 @@ export const ProjectImg = styled.img`
 export const TechImageWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
 `;
 
 export const TechImage = styled.img`
@@ -56,7 +57,7 @@ export const TechImage = styled.img`
 `;
 
 export const LinkIconWrapper = styled.div`
-  margin: 30px 0px 0px 20px;
+  margin: 30px 0px 0px 0px;
   display: flex;
 
   @media (max-width: 600px) {

@@ -1,5 +1,4 @@
 import styled, { createGlobalStyle } from "styled-components";
-
 export const GlobalStyle = createGlobalStyle`
 
 *{
@@ -13,6 +12,8 @@ body{
     padding: 0;
     background-color: #171717;
     color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+
 }
   
 `;
@@ -27,7 +28,6 @@ export const GeneralWrapper = styled.div`
 
 export const TitleHeader = styled.h1`
   color: #27ae60;
-  /* font-family: "Roboto", sans-serif; */
 `;
 
 export const ComponentMargin = styled.div`

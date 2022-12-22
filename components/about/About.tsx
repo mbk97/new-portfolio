@@ -5,7 +5,6 @@ import {
   SectionNum,
 } from "../../globalStyle/GlobalStyle";
 import CutsomButton from "../common/button/CutsomButton";
-import Pills from "../common/pills/Pills";
 import { CustomHeader, CustomText, SubHeader } from "../common/text/CustomText";
 import Skills from "./skills/Skills";
 import { AboutContent, AboutMeText, TitleContainer } from "./style";
@@ -15,9 +14,9 @@ const About = () => {
     <React.Fragment>
       <ComponentPadding>
         <ComponentMargin />
-        <TitleContainer>
+        <TitleContainer id="about">
           <CustomHeader>
-            <SectionNum>01.</SectionNum>
+            <SectionNum>02.</SectionNum>
             About Me
           </CustomHeader>
         </TitleContainer>
@@ -27,7 +26,7 @@ const About = () => {
             <CustomText>
               Hello! &#128075;, I&#39;m Mubarak, a detail-oriented web
               developer, with 2 years of progressive experience and Diligence
-              about producing exceptionally clean, and secure code; while
+              about producing exceptionally clean, and secure code, while
               successfully achieving browser, device and operating system
               compatibility objectives.
             </CustomText>
@@ -39,11 +38,27 @@ const About = () => {
             <br />
 
             <CustomText>
-              Fast-forward to today, and I’ve had the privilege of working as a
-              front-end developer intern at F and K savings (Fintech brand). My
-              main focus these days is building accessible, inclusive products
-              and top notch digital experiences at Pledre (A platform where
-              virtual schools can be built on) for a variety of clients.
+              My journey as a front-end developer started in 2020 during the
+              Pandemic period,and I was lucky to secure an internship at{" "}
+              <b
+                style={{
+                  color: " #27ae60",
+                }}
+              >
+                F and K savings
+              </b>{" "}
+              (fintech brand) 1 year after i started learning. My main focus
+              these days is building accessible, inclusive products and top
+              notch digital experiences at{" "}
+              <b
+                style={{
+                  color: " #27ae60",
+                }}
+              >
+                Pledre
+              </b>{" "}
+              (A platform where virtual schools can be built on) for a variety
+              of clients.
             </CustomText>
             <CutsomButton>Contact me</CutsomButton>
           </AboutMeText>

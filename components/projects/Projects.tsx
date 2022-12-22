@@ -3,17 +3,16 @@ import { AiFillDatabase } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";
 import { TbExternalLink } from "react-icons/tb";
 import {
-  TitleHeader,
   SectionNum,
   ComponentMargin,
   ComponentPadding,
 } from "../../globalStyle/GlobalStyle";
 import { TitleContainer } from "../about/style";
+import Pills from "../common/pills/Pills";
 import {
   CustomHeader,
   CustomText,
   ProjectTitle,
-  SecondaryText,
 } from "../common/text/CustomText";
 import { projecData } from "./data";
 import {
@@ -33,7 +32,7 @@ const Projects = () => {
     <ComponentPadding>
       <ProjectWrapper>
         <ComponentMargin />
-        <TitleContainer>
+        <TitleContainer id="projects">
           <CustomHeader>
             <SectionNum>03.</SectionNum>
             Some things i&rsquo;ve built
@@ -64,8 +63,14 @@ const Projects = () => {
                     <ProjectTitle>Technologies:</ProjectTitle>
                   </div>
                   <TechImageWrapper>
-                    {item.technologies.map((img) => {
-                      return <TechImage src={img} key={img} />;
+                    {item.technologies.map((item) => {
+                      return (
+                        <Pills
+                          image={item.img}
+                          text={item.text}
+                          key={item.id}
+                        />
+                      );
                     })}
                   </TechImageWrapper>
                   <LinkIconWrapper>
@@ -75,6 +80,9 @@ const Projects = () => {
                           href={item.githubLink}
                           target="_blank"
                           rel="noreferrer"
+                          style={{
+                            color: "#ffffff",
+                          }}
                         >
                           <FiGithub size={30} />
                         </a>
@@ -86,6 +94,9 @@ const Projects = () => {
                           href={item.websiteLink}
                           target="_blank"
                           rel="noreferrer"
+                          style={{
+                            color: "#ffffff",
+                          }}
                         >
                           <TbExternalLink size={30} />
                         </a>
@@ -98,6 +109,9 @@ const Projects = () => {
                           href={item.githubTwo}
                           target="_blank"
                           rel="noreferrer"
+                          style={{
+                            color: "#ffffff",
+                          }}
                         >
                           <AiFillDatabase size={30} />
                         </a>

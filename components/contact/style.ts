@@ -51,8 +51,13 @@ export const MessageBox = styled.textarea`
   &::placeholder {
     color: #4f4f4f;
   }
+`;
 
-  /* @media (max-width: 900px) {
-    width: 80%;
-  } */
+export const ContactTextWrapper = styled.div`
+  width: 500px;
+  text-align: center;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 `;
