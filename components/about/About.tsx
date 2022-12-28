@@ -28,19 +28,14 @@ const About = () => {
             <br />
             <CustomText>
               I&#39;m Mubarak, a detail-oriented web developer with 2 years of
-              progressive experience and diligent about producing exceptionally
-              clean, and secure codes, while successfully achieving browser,
-              device and operating system compatibility objectives.
-            </CustomText>
-            <br />
-            <CustomText>
-              I&rsquo;ve always had a keen interest in software engineering, and
-              I felt web development was the perfect field for me to start with.
+              experience in writing exceptionally clean, and secure codes, while
+              successfully achieving user friendly and operating system
+              compatibility objectives.
             </CustomText>
             <br />
 
             <CustomText>
-              My journey as a front-end developer kicked off in 2020 during the
+              My journey as a web developer kicked off in 2020 during the
               COVID-19 pandemic and I secured an internship at{" "}
               <b
                 style={{
@@ -49,9 +44,11 @@ const About = () => {
               >
                 F and K savings
               </b>{" "}
-              (FinTech brand), a year after I started learning. My main focus
-              currently is building accessible and inclusive products and top
-              notch digital experiences. This I am doing amazingly well at {""}
+              (FinTech brand), one year after I started learning.
+              <br />
+              <br />
+              My main focus currently is building accessible, inclusive products
+              and top notch digital experiences at {""}
               <b
                 style={{
                   color: " #27ae60",
@@ -59,8 +56,8 @@ const About = () => {
               >
                 Pledre
               </b>{" "}
-              -a platform where virtual schools can be built on- for a variety
-              of clients.
+              (E-learning provider that allows any individual, school or
+              organisation create a virtual learning environment).
             </CustomText>
             <br />
             <CutsomButton>

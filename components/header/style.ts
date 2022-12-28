@@ -17,7 +17,7 @@ export const HeaderGreetText = styled.p`
   font-size: 17px;
 `;
 
-export const HeaderTextOne = styled.h1`
+export const HeaderTextOne = styled.h2`
   text-transform: capitalize;
   font-size: 80px;
   line-height: 95px;
@@ -29,10 +29,10 @@ export const HeaderTextOne = styled.h1`
   }
 `;
 
-export const HeaderTextTwo = styled.h1`
-  text-transform: capitalize;
-  font-size: 80px;
-  line-height: 95px;
+export const HeaderTextTwo = styled.h2`
+  /* text-transform: capitalize; */
+  font-size: 60px;
+  line-height: 75px;
   color: #828282;
   margin: 20px 0;
   @media (max-width: 900px) {
