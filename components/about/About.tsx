@@ -28,15 +28,14 @@ const About = () => {
             <br />
             <CustomText>
               I&#39;m Mubarak, a detail-oriented web developer with 2 years of
-              experience in writing exceptionally clean, and secure codes, while
-              successfully achieving user friendly and operating system
-              compatibility objectives.
+              experience in using some of the best web technology tools to
+              develop scalable and user friendly web applications.
             </CustomText>
             <br />
 
             <CustomText>
               My journey as a web developer kicked off in 2020 during the
-              COVID-19 pandemic and I secured an internship at{" "}
+              COVID-19 pandemic and I was able to secure an internship at{" "}
               <b
                 style={{
                   color: " #27ae60",
