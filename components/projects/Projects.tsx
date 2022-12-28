@@ -8,6 +8,7 @@ import {
   ComponentPadding,
 } from "../../globalStyle/GlobalStyle";
 import { TitleContainer } from "../about/style";
+import CutsomButton from "../common/button/CutsomButton";
 import Pills from "../common/pills/Pills";
 import {
   CustomHeader,
@@ -22,6 +23,7 @@ import {
   ProjectImg,
   ProjectImgContainer,
   ProjectItemContainer,
+  ProjectLink,
   ProjectWrapper,
   TechImage,
   TechImageWrapper,
@@ -76,45 +78,37 @@ const Projects = () => {
                   <LinkIconWrapper>
                     <LinkIconItem>
                       {item.githubLink && (
-                        <a
+                        <ProjectLink
                           href={item.githubLink}
                           target="_blank"
                           rel="noreferrer"
-                          style={{
-                            color: "#ffffff",
-                          }}
                         >
-                          <FiGithub size={30} />
-                        </a>
+                          Github <FiGithub />
+                        </ProjectLink>
                       )}
                     </LinkIconItem>
                     <LinkIconItem>
                       {item.websiteLink && (
-                        <a
+                        <ProjectLink
                           href={item.websiteLink}
                           target="_blank"
                           rel="noreferrer"
-                          style={{
-                            color: "#ffffff",
-                          }}
                         >
-                          <TbExternalLink size={30} />
-                        </a>
+                          Website <TbExternalLink />
+                        </ProjectLink>
                       )}
                     </LinkIconItem>
 
                     <LinkIconItem>
                       {item.githubTwo && (
-                        <a
+                        <ProjectLink
                           href={item.githubTwo}
                           target="_blank"
                           rel="noreferrer"
-                          style={{
-                            color: "#ffffff",
-                          }}
                         >
-                          <AiFillDatabase size={30} />
-                        </a>
+                          Api
+                          <AiFillDatabase />
+                        </ProjectLink>
                       )}
                     </LinkIconItem>
                   </LinkIconWrapper>

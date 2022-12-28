@@ -72,3 +72,11 @@ export const LinkIconWrapper = styled.div`
 export const LinkIconItem = styled.div`
   margin-right: 10px;
 `;
+
+export const ProjectLink = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  color: #27ae60;
+`;
