@@ -30,10 +30,14 @@ export const ProjectDetailsContainer = styled.div`
 
 export const ProjectImg = styled.img`
   width: 100%;
-  height: 350px;
+  height: 440px;
   object-fit: cover;
   object-position: center;
   border-radius: 15px;
+
+  @media (max-width: 600px) {
+    height: 300px;
+  }
 `;
 
 export const TechImageWrapper = styled.div`
