@@ -1,3 +1,5 @@
+import React, { useEffect } from "react";
+import ReactGA from "react-ga";
 import Head from "next/head";
 import About from "../components/about/About";
 import Contact from "../components/contact/Contact";

@@ -21,7 +21,9 @@ const Header = () => {
         <IntroWrapper>
           <HeaderGreetText>Hi, my name is </HeaderGreetText>
           <HeaderTextOne>Mubarak Muhammed.</HeaderTextOne>
-          <HeaderTextTwo>I build things for the web</HeaderTextTwo>
+          <HeaderTextTwo>
+            I build top notch digital products for the web.
+          </HeaderTextTwo>
           <React.Fragment>
             <a href="/resume/mubarak-dev-resume.pdf" download={true}>
               <CutsomButton>Download resume</CutsomButton>
