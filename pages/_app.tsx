@@ -26,7 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-02SQXWRNSH')
         `}
       </Script>
-      {isLoading ? <PageLoader /> : <Component {...pageProps} />}
+      {/* {isLoading ? <PageLoader /> : <Component {...pageProps} />} */}
+      <Component {...pageProps} />
     </>
   );
 }
