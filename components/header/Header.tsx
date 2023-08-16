@@ -22,7 +22,8 @@ const Header = () => {
           <HeaderGreetText>Hi, my name is </HeaderGreetText>
           <HeaderTextOne>Mubarak Muhammed.</HeaderTextOne>
           <HeaderTextTwo>
-            I build exceptional web products with great user experiences.
+            I engineer extraordinary web solutions, meticulously crafted to
+            deliver unparalleled user experiences.
           </HeaderTextTwo>
           <React.Fragment>
             <a href="/resume/mubarak-dev-resume.pdf" download={true}>

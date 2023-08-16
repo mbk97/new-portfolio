@@ -14,4 +14,5 @@ export const skillsData = [
   { id: 13, text: "Git", image: "/assets/img/git.png" },
   { id: 14, text: "Next JS", image: "/assets/img/next.png" },
   { id: 15, text: "Redux", image: "/assets/img/redux.png" },
+  { id: 16, text: "Tailwind CSS", image: "/assets/img/tailwind.png" },
 ];

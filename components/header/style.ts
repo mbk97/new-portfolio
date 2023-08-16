@@ -2,10 +2,6 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   height: 65vh;
-
-  @media (max-width: 900px) {
-    height: 75vh;
-  }
 `;
 
 export const IntroWrapper = styled.div`
@@ -31,12 +27,14 @@ export const HeaderTextOne = styled.h2`
 
 export const HeaderTextTwo = styled.h2`
   /* text-transform: capitalize; */
-  font-size: 60px;
-  line-height: 75px;
+  font-size: 40px;
+  line-height: 55px;
   color: #828282;
   margin: 20px 0;
+  width: 900px;
   @media (max-width: 900px) {
-    font-size: 40px;
+    font-size: 30px;
     line-height: 42px;
+    width: 100%;
   }
 `;

@@ -27,36 +27,22 @@ const About = () => {
             <CustomText>Hello! 👋</CustomText>
             <br />
             <CustomText>
-              I&#39;m Mubarak, a detail-oriented web developer with 2 years of
-              experience in using some of the best web technology tools to
-              develop scalable and user friendly web applications.
+              I&#39;m Mubarak Muhammed, a result-driven software developer with
+              a passion for crafting innovative and user-friendly websites and
+              applications. From my education in Pure and Applied Physics at
+              Ladoke Akintola University to my professional experiences at Wema
+              Bank, Pledre, and F&K Savings, I&#39;ve honed the art of
+              delivering high-quality solutions.
             </CustomText>
             <br />
 
             <CustomText>
-              My journey as a web developer kicked off in 2020 during the
-              COVID-19 pandemic and I was able to secure an internship at{" "}
-              <b
-                style={{
-                  color: " #27ae60",
-                }}
-              >
-                F and K savings
-              </b>{" "}
-              (FinTech brand), one year after I started learning.
-              <br />
-              <br />
-              My main focus currently is building accessible, inclusive products
-              and top notch digital experiences at {""}
-              <b
-                style={{
-                  color: " #27ae60",
-                }}
-              >
-                Pledre
-              </b>{" "}
-              (E-learning provider that allows any individual, school or
-              organisation create a virtual learning environment).
+              My expertise ranges from streamlining operations through
+              automation to architecting intuitive user dashboards and
+              webistes.My commitment to pushing the boundaries of web
+              development reflects my unwavering dedication to crafting digital
+              experiences that resonate deeply with users and drive tangible
+              impact.
             </CustomText>
             <br />
             <CutsomButton>
