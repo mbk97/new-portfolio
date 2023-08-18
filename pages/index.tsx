@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ReactGA from "react-ga";
 import Head from "next/head";
 import About from "../components/about/About";
@@ -14,8 +14,16 @@ import {
 import LeftStickyBar from "../components/stickySocials/LeftStickyBar";
 import RightStickyBar from "../components/stickySocials/RightStickyBar";
 import Projects from "../components/projects/Projects";
+import PageLoader from "../components/loading/PageLoader";
 
 export default function Home() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
   return (
     <div>
       <GlobalStyle />
@@ -43,16 +51,22 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Navbar />
-      <GeneralWrapper>
-        <Header />
-        <About />
-        <Projects />
-        <Contact />
-      </GeneralWrapper>
-      <RightStickyBar />
-      <LeftStickyBar />
-      <Footer />
+      {isLoading ? (
+        <PageLoader />
+      ) : (
+        <>
+          <Navbar />
+          <GeneralWrapper>
+            <Header />
+            <About />
+            <Projects />
+            <Contact />
+          </GeneralWrapper>
+          <RightStickyBar />
+          <LeftStickyBar />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }

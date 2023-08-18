@@ -20,7 +20,11 @@ const Button = styled.button.attrs((props: IProps) => ({
   line-height: 18px;
   margin-top: 20px;
   margin-left: ${(props) => (props.secondary ? "20px" : "0px")};
+  transition: transform 0.3s;
   cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 const CutsomButton = ({ children, secondary, disabled }: IProps) => {

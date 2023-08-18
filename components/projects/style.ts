@@ -22,9 +22,17 @@ export const ProjectDetailsContainer = styled.div`
   margin-top: 3rem;
   gap: 30px;
 
+  &.random {
+    flex-direction: row-reverse;
+  }
+
   @media (max-width: 900px) {
     flex-wrap: wrap;
     flex: 100%;
+
+    &.random {
+      flex-direction: row;
+    }
   }
 `;
 

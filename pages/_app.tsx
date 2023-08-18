@@ -1,16 +1,14 @@
 import "./styles.global.css";
 import type { AppProps } from "next/app";
 import Script from "next/script";
-import { Suspense, useEffect, useState } from "react";
-import PageLoader from "../components/loading/PageLoader";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
-  const [isLoading, setIsLoading] = useState(true);
-
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
+    AOS.init();
+    AOS.refresh();
   }, []);
   return (
     <>
@@ -26,7 +24,6 @@ export default function App({ Component, pageProps }: AppProps) {
           gtag('config', 'G-02SQXWRNSH')
         `}
       </Script>
-      {/* {isLoading ? <PageLoader /> : <Component {...pageProps} />} */}
       <Component {...pageProps} />
     </>
   );

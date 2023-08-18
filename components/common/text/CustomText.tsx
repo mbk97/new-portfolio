@@ -8,7 +8,7 @@ interface IProps {
 const Text = styled.p`
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 23px;
   color: #ffffff;
 `;
@@ -42,10 +42,12 @@ const ProjectTitle = styled(Text)`
   font-size: 24px;
   color: #27ae60;
   margin-bottom: 20px;
+  font-size: 16px;
+`;
 
-  @media (max-width: 600px) {
-    font-size: 20px;
-  }
+const ProjectTechTitle = styled(ProjectTitle)`
+  color: #ffffff;
+  font-size: 16px;
 `;
 
 const CustomText = ({ children }: IProps) => {
@@ -63,4 +65,5 @@ export {
   SubHeader,
   SecondaryText,
   ProjectTitle,
+  ProjectTechTitle,
 };

@@ -10,6 +10,7 @@ export const NavWrapper = styled.div`
   top: 0;
   background: rgba(0, 0, 0, 0.8);
   padding: 0 50px;
+  z-index: 1;
 
   @media (max-width: 900px) {
     padding: 0 20px;
@@ -36,8 +37,8 @@ export const NavItemsWrapper = styled.ul`
     align-items: center;
     background: rgba(0, 0, 0, 0.8);
     /* background: red; */
-    height: 70vh;
-    width: 80vw;
+    height: 100vh;
+    width: 90vw;
     z-index: 1;
     left: -500px;
     opacity: 0;

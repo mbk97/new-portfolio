@@ -11,7 +11,6 @@ import {
 import { Link } from "react-scroll";
 import { navData } from "./data";
 import { AiOutlineClose, AiOutlineMenuUnfold } from "react-icons/ai";
-import Image from "next/image";
 
 const Navbar = () => {
   const [click, setClick] = React.useState(false);

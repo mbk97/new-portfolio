@@ -43,8 +43,11 @@ const Projects = () => {
         <React.Fragment>
           {projecData.map((item) => {
             return (
-              <ProjectDetailsContainer key={item.id}>
-                <ProjectImgContainer>
+              <ProjectDetailsContainer
+                key={item.id}
+                className={item.class ? "random" : ""}
+              >
+                <ProjectImgContainer data-aos={item.aos}>
                   <ProjectImg src={item.projectImg} />
                 </ProjectImgContainer>
                 <ProjectItemContainer>
