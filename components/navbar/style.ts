@@ -57,6 +57,7 @@ export const NavItemList = styled.li`
   text-decoration: none;
   list-style: none;
   cursor: pointer;
+  color: #27ae60;
 
   @media (max-width: 900px) {
     font-size: 20px;

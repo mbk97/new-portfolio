@@ -28,6 +28,7 @@ import {
   TechImage,
   TechImageWrapper,
 } from "./style";
+import { HeaderTextThree } from "../header/style";
 
 const Projects = () => {
   return (
@@ -35,10 +36,7 @@ const Projects = () => {
       <ProjectWrapper>
         <ComponentMargin />
         <TitleContainer id="projects">
-          <CustomHeader>
-            <SectionNum>03.</SectionNum>
-            Some things i&rsquo;ve built
-          </CustomHeader>
+          <HeaderTextThree>Some things i&rsquo;ve built</HeaderTextThree>
         </TitleContainer>
         <React.Fragment>
           {projecData.map((item) => {

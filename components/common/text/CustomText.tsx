@@ -40,9 +40,10 @@ const SecondaryText = styled(Text)`
 
 const ProjectTitle = styled(Text)`
   font-size: 24px;
-  color: #27ae60;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 16px;
+  font-weight: 600;
 `;
 
 const ProjectTechTitle = styled(ProjectTitle)`

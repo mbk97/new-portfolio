@@ -9,6 +9,7 @@ import { CustomHeader, CustomText, SubHeader } from "../common/text/CustomText";
 import { EmailLink } from "../stickySocials/style";
 import Skills from "./skills/Skills";
 import { AboutContent, AboutMeText, TitleContainer } from "./style";
+import { HeaderTextThree } from "../header/style";
 
 const About = () => {
   return (
@@ -16,10 +17,7 @@ const About = () => {
       <ComponentPadding>
         <ComponentMargin />
         <TitleContainer id="about">
-          <CustomHeader>
-            <SectionNum>02.</SectionNum>
-            About me
-          </CustomHeader>
+          <HeaderTextThree>About me</HeaderTextThree>
         </TitleContainer>
         <AboutContent>
           <AboutMeText>

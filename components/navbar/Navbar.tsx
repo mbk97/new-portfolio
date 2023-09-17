@@ -37,7 +37,7 @@ const Navbar = () => {
                 offset={textNo === "01" ? -250 : -80}
                 onClick={handleClick}
               >
-                <Span>{textNo}.</Span> {text}
+                {text}
               </Link>
             </NavItemList>
           );

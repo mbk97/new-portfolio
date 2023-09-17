@@ -20,7 +20,7 @@ export const ProjectDetailsContainer = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
-  gap: 30px;
+  gap: 90px;
 
   &.random {
     flex-direction: row-reverse;
@@ -29,6 +29,7 @@ export const ProjectDetailsContainer = styled.div`
   @media (max-width: 900px) {
     flex-wrap: wrap;
     flex: 100%;
+    gap: 40px;
 
     &.random {
       flex-direction: row;

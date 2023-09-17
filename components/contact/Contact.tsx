@@ -7,6 +7,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { TitleContainer } from "../about/style";
 import { CustomHeader, CustomText } from "../common/text/CustomText";
 import { EmailLink } from "../stickySocials/style";
+import { HeaderTextThree } from "../header/style";
 
 const Contact = () => {
   return (
@@ -14,10 +15,7 @@ const Contact = () => {
       <ToastContainer />
       <ComponentMargin />
       <TitleContainer id="contact">
-        <CustomHeader>
-          <SectionNum>04.</SectionNum>
-          Get in touch
-        </CustomHeader>
+        <HeaderTextThree>Get in touch</HeaderTextThree>
         <ContactTextWrapper>
           <CustomText>
             You can reach out to me by sending a mail message, i will get back

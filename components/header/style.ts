@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 export const HeaderWrapper = styled.div`
   height: 65vh;
+
+  @media (max-width: 900px) {
+    height: 35vh;
+  }
+
+  @media (max-width: 600px) {
+    height: 70vh;
+  }
 `;
 
 export const IntroWrapper = styled.div`
@@ -24,7 +32,6 @@ export const HeaderTextOne = styled.h2`
     line-height: 42px;
   }
 `;
-
 export const HeaderTextTwo = styled.h2`
   /* text-transform: capitalize; */
   font-size: 40px;
@@ -35,6 +42,18 @@ export const HeaderTextTwo = styled.h2`
   @media (max-width: 900px) {
     font-size: 30px;
     line-height: 42px;
+    width: 100%;
+  }
+`;
+
+export const HeaderTextThree = styled.h2`
+  font-size: 32px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 20px 0;
+  @media (max-width: 900px) {
+    font-size: 24px;
+    line-height: 22px;
     width: 100%;
   }
 `;
