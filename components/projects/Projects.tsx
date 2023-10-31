@@ -100,7 +100,7 @@ const Projects = () => {
                       )}
                     </LinkIconItem>
 
-                    <LinkIconItem>
+                    {/* <LinkIconItem>
                       {item.githubTwo && (
                         <ProjectLink
                           href={item.githubTwo}
@@ -111,7 +111,7 @@ const Projects = () => {
                           <AiFillDatabase />
                         </ProjectLink>
                       )}
-                    </LinkIconItem>
+                    </LinkIconItem> */}
                   </LinkIconWrapper>
                 </ProjectItemContainer>
               </ProjectDetailsContainer>
