@@ -52,18 +52,17 @@ export const projecData = [
 
   {
     id: 4,
-    name: "Dentalist",
+    name: "Wema Bank Website: Vibrant Showcase of Services & Products",
     description:
-      "A dentistry website showcasing the different services rendered, their specialists, the client's testimonials, the latest news, book an appointment section, and contact section.",
-    projectImg: "/assets/img/dental.jpg",
+      "Crafted through collaboration, this dynamic website highlights Wema Bank's diverse offerings. Featuring intuitive navigation and engaging visuals, users seamlessly explore banking solutions, products, and services.",
+    projectImg: "/assets/img/wemaImg.jpg",
     technologies: [
       { id: 1, img: "/assets/img/react.png", text: "React JS" },
-      { id: 2, img: "/assets/img/styled.png", text: "Styled components" },
+      { id: 2, img: "/assets/img/tailwind.png", text: "Tailwind CSS" },
       { id: 3, img: "/assets/img/material.png", text: "Material UI" },
     ],
     aos: "zoom-in-down",
-    websiteLink: "https://dentalist-xi.vercel.app/",
-    githubLink: "https://github.com/mbk97/dentalist",
+    websiteLink: "https://wemabank.com",
   },
   {
     id: 5,
