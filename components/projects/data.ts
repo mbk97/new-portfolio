@@ -20,19 +20,17 @@ export const projecData = [
     id: 2,
     name: "Full-stack blog website",
     description:
-      "A full-stack blog application built using the MERN stack along with Redux, Styled-components, and Material UI. This app allows authenticated users to Read, Create, Edit, and Delete their blog posts.",
+      "A full-stack blog application built using the MEVN stack along with . This app allows authenticated users to Read, Create, Edit, and Delete their blog posts.",
     projectImg: "/assets/img/blog.jpg",
     technologies: [
-      { id: 1, img: "/assets/img/react.png", text: "React JS" },
+      { id: 1, img: "/assets/img/vueImg.png", text: "VUE JS" },
       { id: 2, img: "/assets/img/express.png", text: "Express" },
       { id: 3, img: "/assets/img/mongo.png", text: "Mongo DB" },
-      { id: 4, img: "/assets/img/redux.png", text: "Redux" },
       { id: 5, img: "/assets/img/ts.png", text: "Typescript" },
-      { id: 6, img: "/assets/img/styled.png", text: "Styled Components" },
     ],
     aos: "fade-up",
-    websiteLink: "https://blog-website-six-zeta.vercel.app",
-    githubLink: "https://github.com/mbk97/blog-website",
+    websiteLink: "https://vue-blog-app-five.vercel.app/blog-app/",
+    githubLink: "https://github.com/mbk97/vue-blog-app",
     githubTwo: "https://github.com/mbk97/blog-website-api",
   },
   {

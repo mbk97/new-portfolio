@@ -3,6 +3,7 @@ export const skillsData = [
   { id: 2, text: "CSS", image: "/assets/img/css.png" },
   { id: 3, text: "Javascript", image: "/assets/img/js.png" },
   { id: 4, text: "React JS", image: "/assets/img/react.png" },
+  { id: 334, text: "VUE JS", image: "/assets/img/vueImg.png" },
   { id: 5, text: "Typescript", image: "/assets/img/ts.png" },
   { id: 6, text: "Styled Components", image: "/assets/img/styled.png" },
   { id: 7, text: "Material UI", image: "/assets/img/material.png" },
